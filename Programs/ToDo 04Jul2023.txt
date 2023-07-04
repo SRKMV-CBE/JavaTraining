@@ -1,0 +1,7 @@
+Things to do - 04 July 2023 Tuesday
+===================================
+1. Fill your details on Google Sheet
+	First Name, Last Name, Email Address, Mobile #, Aadhaar No, GitHub Profile
+2. Scan your College ID Card (Front Page) and store in Google Drive 
+	(link shared separately in our WhatApp group)
+	The file name should match with the format 'Name-RegNo'.jpg/pdf. 
