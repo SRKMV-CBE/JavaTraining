@@ -1,5 +1,5 @@
 /* java program to find factorial */
-public class Factorial
+public class factorial
 {
 	public static void main(String[] args)
 	{
