@@ -1,4 +1,4 @@
-public class PrintPrimeNumbers{
+public class PrintPrimeOrNot{
 
 	public static void main(String... args){
 	
@@ -13,8 +13,12 @@ public class PrintPrimeNumbers{
 				count++;      
 			}
 		}
-		if(count == 2)
-			System.out.print(i+"  ");     
+		if(count == 2){
+			System.out.println(i + " Is a PrimeNumber");     
+		}
+		else{
+			System.out.println(i + " Is Not a PrimeNumber");
+		}
 	}
 	}
 }
