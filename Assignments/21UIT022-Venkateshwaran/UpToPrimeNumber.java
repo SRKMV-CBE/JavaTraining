@@ -1,0 +1,27 @@
+import java.util.*;
+public class UpToPrimeNumber
+{
+	public static void main(String args[])
+	{
+		System.out.println("Enter to Print Upto This Number:");
+		int i,j;
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		for(i=2;i<n;i++)
+		{
+			for(j=2;j<i;j++)
+			{
+				if(i%j==0)
+				{
+				  System.out.print("");
+				  break;
+				}
+			}
+			if(j==i)
+			{
+			  System.out.println("Prime Number Are:"+j);
+			}
+		}
+		
+	}
+}
