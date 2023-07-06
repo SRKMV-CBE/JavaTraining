@@ -6,7 +6,7 @@ public class CheckPrime
 		
 		/* Quick Reference of Prime Numbers : 1, 2, 3, 5, 7, 11, 13, 17, 19, 23, 29 */
 		int n = 11;
-		//n=12;
+		n=12;
 		
 		boolean isPrime = true;
 		
