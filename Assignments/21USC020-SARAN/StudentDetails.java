@@ -8,7 +8,7 @@ public class StudentDetails
         String[] names = new String[10];
         int[] ages = new int[10];
 
-        for (int i = 1; i <= 3; i++)
+        for (int i = 1; i <= 5; i++)
         {
             System.out.println("Enter the name of student " + ( i ) + ":");
             names[i] = student.nextLine();
@@ -20,7 +20,7 @@ public class StudentDetails
 
         System.out.println("List of students:");
 	System.out.println(" ");
-        for (int i = 1; i <= 3; i++)
+        for (int i = 1; i <= 5; i++)
         {
             System.out.println("Student " + ( i ) + ":");
             System.out.println("Name: " + names[ i ]);
