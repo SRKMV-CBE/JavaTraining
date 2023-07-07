@@ -1,10 +1,11 @@
-/* c program to convert decimal number to equalent binary,octal and hexadecimal */
+//   Program to convert Decimal to Binary,Octal,Hexadecimal     //
+
 #include<stdio.h>
 void convert(int, int);
 int main()
 {
         int num;
-        printf("Enter a positive decimal number : ");
+        printf("Enter Decimal Number : ");
         scanf("%d", &num);
         printf("\nBinary number :: ");
         convert(num, 2);
@@ -30,4 +31,3 @@ void convert (int num, int base)
         else
                 printf("%c", rem-10+'A' );
 }
-

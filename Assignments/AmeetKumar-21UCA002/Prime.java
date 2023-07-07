@@ -1,10 +1,10 @@
 /* java program to find prime numbers */
 import java.util.Scanner;
-public class Primenumber
+public class Prime
 {
 	public static void main(String[] args)
 	{
-		System.out.println("Enter the number to check:");
+		System.out.println("Enter the Number:");
 		Scanner s =new Scanner(System.in);
 		int num =s.nextInt();
 		int count=0;
@@ -17,11 +17,11 @@ public class Primenumber
 		}
           if(count==2)
 		  {
-            System.out.println("number"  +"\t"+ num +"\t" +" is a prime number");
+          System.out.println("Number " + num + " is a prime number");
 		  }
 		 else
 		 {
-			 	System.out.println("number"  +"\t"+ num +"\t"+ " is not a prime number");
+System.out.println("Number "  + num + " is not a prime number");
 		 }
 }
 }

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Decimal2Binary
+public class DecimalToBinary
 {
 	public static void main(String arg[])
 	{
@@ -19,4 +19,3 @@ public class Decimal2Binary
 		System.out.println("The Given Decimal Number"+" "+dec+" "+"Converted into Binary Number of Is:"+bin);
 	}
 }
-

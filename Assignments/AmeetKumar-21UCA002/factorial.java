@@ -1,16 +1,16 @@
 /* java program to find factorial */
-public class Factorial
+public class factorial
 {
 	public static void main(String[] args)
 	{
 		int num=5;
-		int fact=1;
+		int f=1;
 		for(int i=1;i<=num;i++)
 		{
-			fact*=i;
+			f*=i;
 			
 		}
-		System.out.println("the factorial is:"+fact);
+		System.out.println("The Factorial is:"+f);
 	}
 }
 

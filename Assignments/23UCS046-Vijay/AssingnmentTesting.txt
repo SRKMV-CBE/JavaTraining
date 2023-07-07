@@ -18,4 +18,24 @@ Try !w ==>
 shell returned 127
 
 Press ENTER or type command to continue
-  
+
+// Error in using Scanner without import java.util.Scanner;
+
+$ javac HelloWorldTest.java
+HelloWorldTest.java:6: error: cannot find symbol
+        Scanner s = new Scanner(system.in);
+        ^
+  symbol:   class Scanner
+  location: class HelloWorldTest
+HelloWorldTest.java:6: error: cannot find symbol
+        Scanner s = new Scanner(system.in);
+                        ^
+  symbol:   class Scanner
+  location: class HelloWorldTest
+HelloWorldTest.java:6: error: cannot find symbol
+        Scanner s = new Scanner(system.in);
+                                ^
+  symbol:   variable system
+  location: class HelloWorldTest
+3 errors
+
