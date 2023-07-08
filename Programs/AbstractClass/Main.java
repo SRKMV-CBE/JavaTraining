@@ -6,6 +6,9 @@ abstract class Animal {
     }
 
     public abstract void makeSound();
+    public void protect() {
+        System.out.println(name + " is protecting");
+    }
 
     public void eat() {
         System.out.println(name + " is eating.");
@@ -20,6 +23,10 @@ class Dog extends Animal {
     @Override
     public void makeSound() {
         System.out.println("Woof!");
+    }
+
+    public void protect() {
+          System.out.println("Protecting..");
     }
 }
 
@@ -36,13 +43,17 @@ class Cat extends Animal {
 
 public class Main {
     public static void main(String[] args) {
-        Animal dog = new Dog("Buddy");
-        dog.makeSound();
-        dog.eat();
+        //Animal animal = new Dog("Buddy");
+        Dog animal  = new Dog("Buddy");
+        animal.makeSound();
+        animal.eat();
+	animal.protect();
 
-        Animal cat = new Cat("Whiskers");
-        cat.makeSound();
+        Cat cat = new Cat("Whiskers");
+        //animal = new Cat("Whiskers");
+       	cat.makeSound();
         cat.eat();
-    }
+   	cat.protect(); 
+   }
 }
 

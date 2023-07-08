@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 public class DectoOct
         {
      public static void main(String[] args)
@@ -13,3 +14,6 @@ public class DectoOct
 System.out.println("The octal number of num 9 :" +add);
                 }
        }
+=======
+
+>>>>>>> fdfb88650d0ac9dd7eb0728985df83aa8ab8c09b
