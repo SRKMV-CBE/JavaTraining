@@ -1,0 +1,13 @@
+			Assignment Questions;
+			
+1) Write a java program that extends more than one class or object.
+
+2) write a java program that has interface which has animal(parent) and dog(child) classes.That has protect method in class,create a object of class Dog and store it at animal and store it by animal reference.
+
+3)Create an interface to implement  class and try to create an object with two different classes and assign it to the interface class
+	i] Try to assign an object of one implementation class to another implementation class.
+	ii] Try to create of an interface and explain your understanding.
+
+4) Write a java program that receives age from the command line arguments but pass a string that receives the age from command line and observe the result.
+
+5) Write a java program to create an object from output interface and explain in text.
