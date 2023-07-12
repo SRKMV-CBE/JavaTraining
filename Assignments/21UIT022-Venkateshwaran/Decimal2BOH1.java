@@ -43,7 +43,7 @@ public class Decimal2BOH1
 		System.out.println("The Given Decimal Number"+" "+dec+" "+"Converted into Hexadecimal Number of Is:"+bin);
 		break;
 		default:
-		System.out.println("Please Enter the Correct Base value You went?");
+		System.out.println("Please Enter the Correct Base value You want?");
 	 }
 	} 
 }
