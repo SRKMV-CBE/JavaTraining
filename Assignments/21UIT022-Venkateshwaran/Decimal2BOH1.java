@@ -9,6 +9,7 @@ public class Decimal2BOH1
 	 int rem;
 	 int dec=n;
 	 String bin="";
+	 int basevalue;
 	 System.out.println("Enter the Base Vaule you Went To Converted Like 2,8,16");
 	 Scanner d = new Scanner(System.in);
 	 basevalue=d.nextInt();
