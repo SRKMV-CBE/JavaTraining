@@ -1,17 +1,12 @@
 import java.util.*;
 
-public class StudentList{
-
-        public String Name;
-        public int Age;
-
-
+public class StudentDetailsUsingObj{
 
 public static void main(String... args){
 
         Scanner s = new Scanner(System.in);
 
-        StudentList s1 = new StudentList();
+        Students s1 = new Students();
 
         System.out.print("Enter Name: ");
 
