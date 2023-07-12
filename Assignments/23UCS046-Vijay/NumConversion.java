@@ -4,22 +4,23 @@ class NumConversion
     public static void main(String[] args)
     {
        Scanner s = new Scanner(System.in);
-       System.out.println("Decimal to Binary,Octal And HexaDecimal Conversion");
+       System.out.println("Decimal to Binary,Octal And HexaDecimal Conversion\n");
        String binary,octal,hexadecimal;
        
         System.out.print("Enter a Decimal Number:");
          
         int number = s.nextInt();
 
-        DecimalToBinaryConvert Binary = new DecimalToBinaryConvert();
-            binary = Binary.ConvertToBinary(number);
-            System.out.println("Binary Format of " + number + " is : " + binary);
-        DecimalToOctalConvert Octal = new DecimalToOctalConvert();
-            octal=Octal.ConvertToOctal(number);
-            System.out.println("Octal Format of " + number + " is : " + octal);
-        DecimalToHexaConvert Hexa = new DecimalToHexaConvert();
-            hexadecimal = Hexa.convertToHexa(number);
-            System.out.println("HexaDecimal Format of " + number + " is : " + hexadecimal);
+        DecimalConversionMain Convert = new DecimalConversionMain();
+
+            binary = Convert.ToBinary(number);
+            System.out.println("Binary of " + number + " is : " + binary);
+ 
+            octal = Convert.ToOctal(number);
+            System.out.println("Octal of " + number + " is : " + octal);
+        
+            hexadecimal = Convert.ToHexa(number);
+            System.out.println("HexaDecimal of " + number + " is : " + hexadecimal);
     }
 }
 
