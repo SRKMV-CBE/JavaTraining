@@ -1,0 +1,10 @@
+                               Self studying topics 
+
+01.Encapsulation.
+02.Access specifier.
+03.Package.
+04.String and String buffer.
+05.Collections.
+06.Map and Hashmap.
+07.Exception handling.
+08.List and array of list. 			       
