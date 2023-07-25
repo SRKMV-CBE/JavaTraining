@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class AgeInput
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("PLlease enter your age: ");
+        String agestr=sc.nextLine();
+        try{
+            int age=Integer.parseInt(agestr);
+            System.out.println("Age is: "+age);
+        }
+        catch(NumberFormatException e)
+        {
+            System.out.println("Not an Age format...");
+        }
+    }
+}
