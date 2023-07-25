@@ -1,0 +1,32 @@
+interface Smartphones
+{
+    void Design();
+}
+class Nothing implements Smartphones
+{
+    public void Design()
+    {
+        System.out.println("Nothing has a better design");
+    }
+}
+
+class Apple implements Smartphones
+{
+    public void Design()
+    {
+        System.out.println("Apple doesnt have a attractive design");
+    }
+}
+
+
+public class InterfaceImplementation
+{
+    public static void main(String args[])
+    {
+        Smartphones nothing=new Nothing();
+        Smartphones apple=new Apple();
+        nothing.Design();
+        apple.Design();
+
+    }
+}
