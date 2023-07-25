@@ -1,0 +1,20 @@
+abstract class  Animals
+{
+     protected abstract void barks();
+}
+class dog extends Animals
+{
+    public void barks()
+    {
+        System.out.println("Dog barks");
+    }
+}
+
+public class InterfaceDemo
+{
+    public static void main(String args[])
+    {
+        Animals animal=new dog();
+        animal.barks();
+    }
+}
