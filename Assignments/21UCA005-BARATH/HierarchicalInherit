@@ -43,7 +43,7 @@ class square extends shape
     }
 }
 
-public class Hierarchical_Inherit
+public class HierarchicalInherit
 {
     public static void main(String args[])
     {
