@@ -1,0 +1,26 @@
+interface shapes
+{
+    double getarea();
+}
+class rectangles implements shapes
+{
+    private double length;
+    private double width;
+    public rectangles(double length,double width)
+    {
+        this.length=length;
+        this.width=width;
+    }
+    public double getarea()
+    {
+        return length*width;
+    }
+}
+public class ShapeInterface
+{
+    public static void main(String args[])
+    {
+        rectangles rectangles=new rectangles(20,20);
+        System.out.println("Area is: "+rectangles.getarea());
+    }
+}
